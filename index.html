@@ -14,11 +14,13 @@
 <body>
 
 <x3d width='800px' height='500px'>
-  <scene>
-    <Viewpoint position="-31.90338 -73.59454 44.30118" orientation="-0.17300 0.27571 0.94554 1.40718" 
-	zNear="11.19831" zFar="93.39939" centerOfRotation="-38.60325 -92.88244 -0.89322" fieldOfView="0.78540" description=""></Viewpoint>   
-    <Inline url="plot.x3d" />
-  </scene>
+  <Scene DEF='scene'>
+     <Viewpoint position="-20.38000 -86.13769 44.54404" orientation="0.03748 0.36140 0.93166 1.10269" 
+	zNear="10.03060" zFar="91.64783" centerOfRotation="-37.12193 -93.55278 -0.90392" fieldOfView="0.78540" description=""></Viewpoint>
+    <Transform>
+	  <Inline url="plot.x3d" />
+	  </Transform>
+  </Scene>
 </x3d>
 </body>
 </html>
